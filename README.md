@@ -1,88 +1,38 @@
-# Project Title
+# Psych.ai
+Contributers : [Sree Harsha Nelaturu](https://github.com/TheBigFundamental), [Aparna Krishnakumar](https://github.com/Aparnaakk), [Anith Patel](https://github.com/anithp), Maneesha Dendukuri.
 
-One Paragraph of project description goes here
-
+Making use of Deep Learning in Image Processing specifically Neural Style Transfer in order to create a tool which can be used to act as an aid for people with hearing disabilities and serve as a bridge for people of different cultures.
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Clone the Repository, following which please clone the following repository:
+> [Fast Style Transfer](https://github.com/lengstrom/fast-style-transfer) - For fast style transfer which is applied to frames.
+> Create an Azure account and acquire a key for the Microsoft Cognitive Emotion API which needs to be used in the EmotionAPIIntegration.py
 
 ### Prerequisites
+<ol>
+  <li> Tensorflow
+  <li> Numpy
+  <li> OpenCV
+  <li> CUDA
+</ol>
 
-What things you need to install the software and how to install them
+### File Requirements and Description:
+<ol>
+  <li> videofolder.py - creates a folder containig frames of the image.
+  <li> create_array.py - creates numpy array of images
+  <li> EmotionAPIIntegration.py - Uses Microsoft Cognitive Emotion API in order to analyze sentiments of the frames in 
+        image folder.
+  <li> imageworkfinal.py - Main script to be utilized for the completely automated process of selection and input of video, and   
+       subsequent generation of video.
+</ol>
 
-```
-Give examples
-```
+## Working of the Model :
+The input video is taken from the side of the user, he selects an enhancement he requires, which consists of "Scary" and "Comic" in the current iteration of the software, following this, the video is converted into frames and stores them in it a folder, following this it runs the emotion API on the frames, and the frames which contain the emotions related to enhancement sought are copied to a new folder, following which style transfer is applied, and subsequently they are replaced in the original folder and a video is compiled. Fully automated, works with Python 3.5.2 and runs on Tensorflow-GPU.
 
-### Installing
 
-A step by step series of examples that tell you have to get a development env running
+## Testing the Model:
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+In order to use the system please clone the repository and that of fast style transfer, replaced directory links to the folders
+Create two folders, "styleimage" and "styletransferimages" and place the checkpoint file for style in the checkpoints files.
+Checkpoints for "Scary" and "Comic" have been provided. Following this run imageworkfinal.py, ensure CUDA is installed for speedy computatition.
 
