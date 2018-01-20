@@ -39,8 +39,7 @@ Checkpoints for "Scary" and "Comic" have been provided. Following this run image
 ## Examples:
 
 Diversify:
-![Alt Text](https://imgur.com/a/DTKkM)
-Comic
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/DTKkM"><a href="//imgur.com/DTKkM"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>Comic
 
 
 Scary
