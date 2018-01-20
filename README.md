@@ -38,8 +38,10 @@ Checkpoints for "Scary" and "Comic" have been provided. Following this run image
 
 ## Examples:
 # Diversify:
-<iframe src='//gifs.com/embed/Q0j6QL 'frameborder='0' scrolling='no' width='640px' height='480px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe>
+<iframe src='//gifs.com/embed/Q0j6QL 'frameborder='0' scrolling='no' width='640px' height='480px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' > </iframe>
+
 # Comic
 <iframe src='//gifs.com/embed/mQ8YKr 'frameborder='0' scrolling='no' width='640px' height='480px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe>
+
 # Scary
 <iframe src='//gifs.com/embed/MQNJ0A 'frameborder='0' scrolling='no' width='640px' height='480px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe>
