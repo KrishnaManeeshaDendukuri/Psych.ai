@@ -36,3 +36,10 @@ In order to use the system please clone the repository and that of fast style tr
 Create two folders, "styleimage" and "styletransferimages" and place the checkpoint file for style in the checkpoints files.
 Checkpoints for "Scary" and "Comic" have been provided. Following this run imageworkfinal.py, ensure CUDA is installed for speedy computatition.
 
+## Examples:
+# Diversify:
+![alt text](http://gifs.com/gif/Q0j6QL)
+# Comic
+![alt text](http://gifs.com/gif/mQ8YKr)
+# Scary
+![alt text](http://gifs.com/gif/scary-MQNJ0A)
