@@ -39,7 +39,6 @@ Checkpoints for "Scary" and "Comic" have been provided. Following this run image
 ## Examples:
 
 Diversify:
-![Alt text](https://i.imgur.com/PxFPz6N.gif)
-
+<iframe class="imgur-embed" width="100%" height="480" frameborder="0" src="https://i.imgur.com/PxFPz6N.gifv#embed"></iframe>
 
 Scary
