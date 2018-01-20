@@ -35,11 +35,3 @@ The input video is taken from the side of the user, he selects an enhancement he
 In order to use the system please clone the repository and that of fast style transfer, replaced directory links to the folders
 Create two folders, "styleimage" and "styletransferimages" and place the checkpoint file for style in the checkpoints files.
 Checkpoints for "Scary" and "Comic" have been provided. Following this run imageworkfinal.py, ensure CUDA is installed for speedy computatition.
-
-## Examples:
-
-Diversify:
-<iframe class="imgur-embed" width="100%" height="480" frameborder="0" src="https://i.imgur.com/PxFPz6N.gifv#embed">
-</iframe>
-
-Scary
