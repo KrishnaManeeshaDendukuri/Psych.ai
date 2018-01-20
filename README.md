@@ -39,7 +39,7 @@ Checkpoints for "Scary" and "Comic" have been provided. Following this run image
 ## Examples:
 
 Diversify:
-![Alt Text](https://j.gifs.com/G5z8n0.gif)
+![Alt Text](https://imgur.com/a/DTKkM)
 Comic
 
 
