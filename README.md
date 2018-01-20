@@ -37,10 +37,11 @@ Create two folders, "styleimage" and "styletransferimages" and place the checkpo
 Checkpoints for "Scary" and "Comic" have been provided. Following this run imageworkfinal.py, ensure CUDA is installed for speedy computatition.
 
 ## Examples:
-# Diversify:
-![alt text](https://j.gifs.com/MQNJ0A.gif)
 
-# Comic
+Diversify:
+![alt text](https://j.gifs.com/G5z8n0.gif)
+
+Comic
 
 
-# Scary
+Scary
