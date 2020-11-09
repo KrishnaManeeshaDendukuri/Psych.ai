@@ -1,7 +1,5 @@
 from EmotionAPIIntegration import get_emotion
 from videotofolder import get_frames
-#from create_array import create_array
-#from emotion_lists import emochap, emoshine, emodiv
 import os
 import re
 import shutil
@@ -26,44 +24,25 @@ def get_folder_details():
 
 
 emotions = get_emotion()
-#print(emotions)
-
 
 def get_image_index():
     transfer_indices = []
-    #transfer_indices_scary = []
-    #transfer_indices_comic = []
     for i in range(len(emotions)):
         if required_emotion == "Scary":
             if emotions[i] in ["fear", "disgust", "sadness", "anger"]:
-                #transfer_indices_scary.append(folder_list[i])
+                transfer_indices_scary.append(folder_list[i])
                 transfer_indices.append(folder_list[i])
         elif required_emotion == "Comic":
             if emotions[i] in ["happiness", "neutral", "surprise"]:
-                #transfer_indices_comic.append(folder_list[i])
                 transfer_indices.append(folder_list[i])
-    #print(transfer_indices)
-    #print(videofile)
+    
     return transfer_indices
 stylepaths = get_image_index()
 
-#stylepaths_scary = get_image_index()[0]
-#stylepaths_comic = get_image_index()[1]
-"""
-if videoname == "cc.mp4":
-    stylepaths = emochap
-elif videoname == "shining.mp4":
-    stylepaths = emoshine
-elif videoname == "diversity.mp4":
-    stylepaths = emodiv
-#print(stylepaths)
-content = stylepaths
-#stylepaths = get_image_index()
-#stylepath = [stylepaths_scary, stylepaths_comic]
-"""
+stylepaths_scary = get_image_index()[0]
+stylepaths_comic = get_image_index()[1]
 
 for jpgfile in stylepaths:
-    #print(jpgfile)
     shutil.copy(path+"/"+jpgfile, "./styletransfer/styleimages")
 if required_emotion == "Scary":
     value = "scary"
