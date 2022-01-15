@@ -1,5 +1,5 @@
 # Psych.ai
-Contributers : [Sree Harsha Nelaturu](https://github.com/TheBigFundamental), [Aparna Krishnakumar](https://github.com/Aparnaakk), [Anith Patel](https://github.com/anithp), Maneesha Dendukuri.
+Contributers : [Sree Harsha Nelaturu](https://github.com/TheBigFundamental), [Aparna Krishnakumar](https://github.com/Aparnaakk), [Anith Patel](https://github.com/anithp), [Maneesha Dendukuri](https://github.com/KrishnaManeeshaDendukuri).
 
 Making use of Deep Learning in Image Processing specifically Neural Style Transfer in order to create a tool which can be used to act as an aid for people with hearing disabilities and serve as a bridge for people of different cultures.
 ## Getting Started
